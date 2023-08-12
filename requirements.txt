@@ -8,3 +8,4 @@ streamlit
 mkdocs-windmill-dark 
 mkdocs-dracula-theme 
 mkdocs-glightbox
+pymdown-extensions
