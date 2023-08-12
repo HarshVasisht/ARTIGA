@@ -1,0 +1,10 @@
+python-dotenv
+requests
+rich
+langchain
+python-docx
+python-pptx
+streamlit
+mkdocs-windmill-dark 
+mkdocs-dracula-theme 
+mkdocs-glightbox

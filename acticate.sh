@@ -1,0 +1,1 @@
+conda activate "C:\Users\ASUS\Documents\GitHub\ARTIGA\venv"
