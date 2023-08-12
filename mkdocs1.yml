@@ -1,0 +1,54 @@
+site_name: A.R.T.I.G.A
+nav:
+    - Home: index.md
+    - LangChain: LangChain.md
+    - LLMs: LLMs.md
+
+# Repository
+repo_name: HarshVasisht/ARTIGA
+repo_url: https://github.com/HarshVasisht/ARTIGA
+
+theme:
+    # logo: assets/img/llama.webp
+    logo: assets/img/llama1.png
+    favicon: assets/img/favicon.ico
+    name: dracula
+    nav_style: dark
+    palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: 
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: 
+      accent: lime
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/HarshVasisht/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/HarshVasisht
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/HarshVasisht
+    - icon: fontawesome/brands/google
+      link: https://www.harsh.ai.in
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/HarshVasisht/"  target="_blank" rel="noopener">Harsh Vasisht</a>
+
+
+
+
+markdown_extensions:
+  - admonition
+  - toc:
+      toc_depth: 3
+  - pymdownx.highlight:
+      guess_lang: false
+      linenums: true
