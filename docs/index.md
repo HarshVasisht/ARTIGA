@@ -42,7 +42,7 @@ To get started with this project, you can follow these steps:
 
 ## Introduction
 
-Welcome to ARTIGA, an exciting and innovative project that harnesses the power of Artificial Intelligence (AI) to create real-time image generation and article creation. ARTIGA combines cutting-edge Generative AI models to generate stunning images and crafts captivating articles, providing a seamless and dynamic content creation experience.
+Welcome to ARTIGA ( AI for Real-Time Image Generation and Article Creation ), an exciting and innovative project that harnesses the power of Artificial Intelligence (AI) to create real-time image generation and article creation. ARTIGA combines cutting-edge Generative AI models to generate stunning images and crafts captivating articles, providing a seamless and dynamic content creation experience.
 
 ## Features
 

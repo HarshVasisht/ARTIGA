@@ -1,11 +1,11 @@
-site_name: ARTIGA AI for Real-Time Image Generation and Article Creation
+site_name: A.R.T.I.G.A 
 
 repo_name: HarshVasisht/ARTIGA
 repo_url: https://github.com/HarshVasisht/ARTIGA
 
 theme:
   name: 'dracula'
-  logo: assets/img/dracula.png
+  # logo: assets/img/dracula.png
   nav_style: dark
   palette:
   - scheme: default
