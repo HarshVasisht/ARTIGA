@@ -154,3 +154,4 @@ cython_debug/
 # LLM model
 llm/llama-2-7b-chat.ggmlv3.q8_0.bin
 Content writer
+llm/pytorch_model-00001-of-00003.bin

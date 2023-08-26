@@ -94,8 +94,11 @@ def main():
             st.write("Topic of the article is: " + user_input)
             st.write("Image of the article is: " + image_input)
             # prompt_template = """You are a digital marketing and SEO expert and your task is to write article so write an article on the given topic: {user_input}. The article must be under 800 words. The article should be be lengthy.               
-            prompt_template = """You are a digital marketing and SEO expert and your task is to generate articles for a given topic. So, write an article on {user_input} of 900 words.
-            Stick to the topic given by the user and maintain a professional and creative tone. You can use quotes to go with the article. Also when reaching the word limit make sure no sentence is left uncompleted."""
+            # prompt_template = """You are a digital marketing and SEO expert and your task is to generate articles for a given topic. So, write an article on {user_input} of 900 words.
+            # Stick to the topic given by the user and maintain a professional and creative tone. You can use quotes to go with the article. Also when reaching the word limit make sure no sentence is left uncompleted."""
+            prompt_template = """You are a Acadmecian and your task is to generate study material for a given topic, that is {user_input}. 
+            Also generate important questions on {user_input} that are important for the interview purpose."""
+            llm_call = load_llm(max_tokens=1000, prompt_template=prompt_template)
             llm_call = load_llm(max_tokens=1000, prompt_template=prompt_template)
             print(llm_call)
             result = llm_call(user_input)
